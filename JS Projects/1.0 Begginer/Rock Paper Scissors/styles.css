@@ -1,0 +1,31 @@
+h1 {
+    text-align: center;
+    font-family: Arial;
+}
+
+.Buttons {
+    position: relative;
+    height: 80px;
+    width: 85px;
+    border-radius: 40px;
+    cursor: pointer;
+    background-color: rgb(0, 158, 211);
+    margin-right: 20px;
+    border: 2px solid black;
+    left: 40%;
+    top: 30px;
+}
+
+.Buttons:hover {
+    background-color: rgb(74, 184, 221);
+}
+
+.Results {
+    font-family: Arial;
+    font-weight: 550;
+}
+
+#OutputResult {
+    font-size: 2.7em;
+}
+
