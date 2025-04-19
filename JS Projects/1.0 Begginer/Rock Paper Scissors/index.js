@@ -8,6 +8,12 @@ const PlayerResult = document.getElementById("PlayerResult");
 const ComputerResult = document.getElementById("ComputerResult");
 const OutputResult = document.getElementById("OutputResult") 
 
+const PlayerScore = document.getElementById("PlayerScore");
+const ComputerScore = document.getElementById("ComputerScore")
+
+let PlayerCount = 0;
+let ComputerCount = 0;
+
 function rockfunc() {
    PlayerResult.textContent = "PLAYER: ROCK"
    ComputerAnswer()
@@ -15,9 +21,15 @@ function rockfunc() {
     OutputResult.textContent = "Draw"
     // draw
    } else if(ComputerResult.textContent == "COMPUTER: PAPER") {
-     OutputResult.textContent = "Lose"
+     OutputResult.textContent = "You Lose"
+
+     ComputerCount +=1
+     ComputerScore.textContent = ComputerCount
+     
    } else {
-    OutputResult.textContent = "Win"
+    OutputResult.textContent = "You Win"
+    PlayerCount +=1
+     PlayerScore.textContent = PlayerCount
    }
 }
 
@@ -28,9 +40,15 @@ function paperfunc() {
     OutputResult.textContent = "Draw"
     // draw
    } else if(ComputerResult.textContent == "COMPUTER: SCISSOR") {
-     OutputResult.textContent = "Lose"
+     OutputResult.textContent = "You Lose"
+
+     ComputerCount +=1
+     ComputerScore.textContent = ComputerCount
    } else {
-    OutputResult.textContent = "Win"
+    OutputResult.textContent = "You Win"
+    PlayerCount ++;
+    console.log(PlayerCount)
+    PlayerScore.textContent = PlayerCount
    }
 }
 
@@ -42,9 +60,14 @@ function scissorfunc() {
     OutputResult.textContent = "Draw"
     // draw
    } else if(ComputerResult.textContent == "COMPUTER: ROCK") {
-     OutputResult.textContent = "Lose"
+     OutputResult.textContent = "You Lose"
+
+     ComputerCount +=1
+     ComputerScore.textContent = ComputerCount
    } else {
-    OutputResult.textContent = "Win"
+    OutputResult.textContent = "You Win"
+    PlayerCount +=1
+    PlayerScore.textContent = PlayerCount
    }
 }
 
