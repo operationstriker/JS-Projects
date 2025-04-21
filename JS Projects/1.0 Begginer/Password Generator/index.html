@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="Container">
+        <div id="Header">
+            <h2 style="font-family: Arial;">Password Generator</h2>
+        </div>
+
+        <input type="text" id="inputfield">
+
+        <p id="PasswordStrength">Password is weak</p>
+
+
+        <div id="LengthDiv">
+            <p id="LengthP">Password Length</p>
+            <input type="range" min="0" max="30" id="range">
+            <p id="rangevalue"></p>
+        </div>
+
+      
+ 
+        <div id="StrengthDiv">
+            <p id="StrengthText">Password Strength</p>
+            <div id="FirstDiv">
+                <input type="checkbox" id="FirstCheckbox" onclick="lowercasecheck()">
+                <p id="FirstText">Lowercase (a-z)</p>
+            </div>
+    
+            <div id="SecondDiv">
+                <input type="checkbox" id="SecondCheckbox" onclick="uppercasecheck()">
+                <p id="SecondText">Uppercase (A-Z)</p>
+            </div>
+    
+            <div id="ThirdDiv">
+                <input type="checkbox" id="ThirdCheckbox" onclick="numberscheck()">
+                <p id="ThirdText">Numbers (0-9)</p>
+            </div>
+    
+            <div id="FourthDiv">
+                <input type="checkbox" id="FourthCheckbox" onclick="symbolscheck()">
+                <p id="FourthText">Symbols ($#%#)</p>
+            </div>
+        </div>
+
+        <button id="PasswordBTN" onclick="generatepassword()">Generate Password</button>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>

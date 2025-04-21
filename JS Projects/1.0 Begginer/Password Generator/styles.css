@@ -1,0 +1,164 @@
+body {
+    background-color: rgb(0, 153, 255);
+}
+
+#Container {
+    position: relative;
+    left: 40%;
+    height: 50vh;
+    width: 23%;
+    border-radius: 6px;
+    background-color: white;
+}
+
+#Header {
+    border-bottom: 1.5px solid rgb(199, 199, 199);
+}
+
+#inputfield {
+    position: relative;
+    width: 80%;
+    height: 8%;
+    top: 5%;
+    left: 2%;
+    border: 2px solid;
+    border-radius: 5px;
+}
+
+#PasswordStrength {
+    position: relative;
+    left: 5%;
+    top: 2%;
+    font-family: helvetica;
+    font-weight: 500;
+}
+
+
+#LengthDiv {
+    position: relative;
+    height: 15%;
+    left: 2%;
+    top: 5%;
+}
+
+#LengthP {
+    position: absolute;
+    top: -18%;
+    left: 2%;
+    font-family: Arial;
+}
+
+
+#rangevalue {
+    position: absolute;
+    bottom: 30%;
+    right: 20%;
+    font-family: Arial;
+    border: none;
+}
+
+#range {
+    position: absolute;
+    width: 80%;
+    bottom: 25%;
+}
+
+
+h2 {
+    font-size: 1.2em;
+}
+
+#StrengthDiv {
+    position: relative;
+    top: 6%;
+    left: 2%;
+    height: 25%;
+    font-family: Arial;
+}
+
+#StrengthText {
+    font-family: Arial;
+    font-weight: bold;
+}
+
+#FirstDiv {
+    position: relative;
+    width: 47%;
+    bottom: 0%;
+    right: 1%;
+}
+
+#FirstCheckbox {
+    position: absolute;
+    top: 5%;
+}
+
+#FirstText {
+    position: relative;
+    left: 20%;
+}
+
+#SecondDiv {
+    position: relative;
+    width: 48%;
+    bottom: 0%;
+    right: 1%;
+}
+
+#SecondCheckbox {
+    position: absolute;
+    top: 5%;
+}
+
+#SecondText {
+    position: relative;
+    left: 20%;
+}
+
+#ThirdDiv {
+    position: relative;
+    width: 45%;
+    bottom: 70px;
+    left: 50%;
+}
+
+#ThirdCheckbox {
+    position: absolute;
+    top: 5%;
+}
+
+#ThirdText {
+    position: relative;
+    left: 20%;
+}
+
+#FourthDiv {
+    position: relative;
+    bottom: 70px;
+    width: 47%;
+    left: 50%;
+}
+
+#FourthCheckbox {
+    position: absolute;
+    top: 5%;
+}
+
+#FourthText {
+    position: relative;
+    left: 20%;
+}
+
+#PasswordBTN {
+    position: absolute;
+    bottom: 1%;
+    left: 10%;
+    background-color: rgb(0, 132, 255);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    height: 10%;
+    width: 80%;
+    cursor: pointer;
+}

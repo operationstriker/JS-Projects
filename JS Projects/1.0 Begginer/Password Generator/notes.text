@@ -1,0 +1,57 @@
+    // const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+    // const lowercase = "abcdefghijklmnopqrstuvwxyz"
+    // const uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+    // const symbols = "! @ # $ % ^ & * ( ) - _ = + { } [ ] : ; ' < > , . ? / \ | ~ ` ± ÷  √ ≈ ≠ ≤ ≥ © ® ™ § ° " 
+
+    function gettime() {
+    const range = document.getElementById("range").value
+    const rangevalue = document.getElementById("rangevalue");
+    rangevalue.textContent = `${range}`
+    // couldnt access outside the function
+}
+setInterval(gettime, 100) // setinterval calls a function at a specific intervalls (in millseconds)
+
+const FirstCheckbox = document.getElementById("FirstCheckbox")
+const SecondCheckbox = document.getElementById("SecondCheckbox")
+const ThirdCheckbox = document.getElementById("ThirdCheckbox")
+const FourthCheckbox = document.getElementById("FourthCheckbox")
+
+
+function generatepassword() {
+   const inputfield = document.getElementById("inputfield");
+
+    const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+    const lowercase = "abcdefghijklmnopqrstuvwxyz"
+    const uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+    const symbols = "! @ # $ % ^ & * ( ) - _ = + { } [ ] : ; ' < > , . ? / \ | ~ ` ± ÷  √ ≈ ≠ ≤ ≥ © ® ™ § ° " 
+
+   function lowercasecheck() {
+    if (FirstCheckbox.checked = true) {
+        alert("431")
+    }
+}
+
+    function uppercase() {
+        if (SecondCheckbox.checked == true) {
+            alert("431")
+        }
+    }
+
+    function numberscheck() {
+        if (ThirdCheckbox.checked == true) {
+            alert("431")
+        }
+    }
+
+    function symbolscheck() {
+        if (FourthCheckbox.checked == true) {
+            alert("431")
+        }
+    }
+
+    lowercasecheck();
+    uppercase()
+    numberscheck()
+    symbolscheck()
+     inputfield.value = "42"
+}
