@@ -1,0 +1,23 @@
+
+#BudgetDiv {
+    height: 20vh;
+    width: 20%;
+    border: 2px solid green;
+
+}
+
+
+#ExpenseDiv {
+    position: relative;
+    top: 10px;
+    height: 25vh;
+    width: 20%;
+    border: 2px solid rgb(255, 0, 0);
+}
+
+.buttons {
+    position: relative;
+    top: 25px;
+    right: 50%;
+}
+

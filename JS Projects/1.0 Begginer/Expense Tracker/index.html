@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h3>Budget App</h3>
+
+    <div id="BudgetDiv">
+        <p>Please Enter Your Budget</p>
+        <input type="number" id="BudgetInput">
+        <button class="buttons" onclick="BudgetCalculate()">Calculate</button>
+    </div>
+
+    <div id="ExpenseDiv">
+        <p>Please Enter Your Expense</p>
+        <input type="text" id="ExpenseInput">
+
+        <p>Please Enter Expense Amount</p>
+        <input type="text" id="ExpenseAmountInput">
+
+        <button class="buttons" onclick="ExpenseCalculate()">Add Expense</button>
+    </div>
+
+    <p>BUDGET</p>
+
+    <p id="BudgetResult">$5000</p>
+
+    <p>EXPENSES</p>
+    <p style="color: red;" id="ExpenseResult">$2600</p>
+
+    <p>BALANCE</p>
+    <p id="BalanceResult">$2143</p>
+  
+</body>
+<script src="index.js"></script>
+</html>
