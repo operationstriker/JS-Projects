@@ -24,24 +24,31 @@
         <button class="buttons" onclick="ExpenseCalculate()" id="ExpenseButton">Add Expense</button>
     </div>
 
-    <div class="Right">
+    <div class="TotalDiv">
         <div>
-            <p style="color: white; font-family: Arial; font-weight: bold;">BUDGET</p>
-            <p id="BudgetResult" style="text-align: center;"></p>
+            <p style="color: white; font-family: Arial; font-weight: bold; margin: 0px;" id="BudgetText">BUDGET</p>
+            <p id="BudgetResult" style="text-align: center; margin: 0px; width: 10%; color: white; font-weight: 550; font-family: Arial;"></p>
         </div>
      
     
         <div>
-            <p style="color: white; font-family: Arial; font-weight: bold;">EXPENSES</p>
-            <p style="color: red;" id="ExpenseResult" style="text-align: center;"></p>
+            <p style="color: white; font-family: Arial; font-weight: bold; margin: 0px;" id="ExpenseText">EXPENSES</p>
+            <p style="color: red;" id="ExpenseResult" style="text-align: center; margin: 0px; width: 10%; font-family: Arial;"></p>
         </div>
         
     
         <div>
-            <p style="color: white; font-family: Arial; font-weight: bold;">YOUR BALANCE</p>
-            <p id="BalanceResult"></p>
+            <p style="color: white; font-family: Arial; font-weight: bold; margin: 0px;" id="BalanceText">YOUR BALANCE</p>
+            <p id="BalanceResult" style="color: white; font-family: Arial;"></p>
         </div>
        
+    </div>
+
+    <div id="ExpenseList">
+    <h3 style="font-family: Arial;">Expense List</h3>
+    <ul id="ExpenseUL">
+
+    </ul>
     </div>
 
 
