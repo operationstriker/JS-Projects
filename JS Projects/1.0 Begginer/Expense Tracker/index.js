@@ -15,12 +15,20 @@ function BudgetCalculate() {
 
 function ExpenseCalculate() {
     if (ExpenseInput.value !== "") {
-        ExpenseResult.textContent = `$${ExpenseInput.value}`
-        BalanceResult.textContent = `${BudgetInput.value - ExpenseInput.value}`
+        ExpenseResult.textContent = `$${ExpenseAmountInput.value}`
+        BalanceResult.textContent = `${BudgetInput.value - ExpenseAmountInput.value}`
     }
 }
 
+// Local Storage - to save
 
+// ExpenseObject = [BalanceResult.textContent, ExpenseResult.textContent]
 
+// LOCALJSON = JSON.stringify(ExpenseObject)
+// localStorage.setItem("Text", LOCALJSON)
+
+// text = localStorage.getItem("Text")
+
+// console.log(text)
 
 
