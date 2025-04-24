@@ -38,7 +38,7 @@ h1 {
 #ExpenseDiv {
     position: relative;
     bottom: 60px;
-    left: 53%;
+    left: 59%;
     height: 19vh;
     width: 20%;
     border: 2px solid white;
@@ -59,14 +59,52 @@ h1 {
     background-color: rgb(1, 132, 255);
     color: white;
     border: none;
+    cursor: pointer;
 }
 
-.Right {
+.TotalDiv {
     position: relative;
+    top: 0px;
     width: 50%;
     bottom: 70px;
+    height: 10vh;
     left: 30%;
     background-color: rgb(1, 132, 255);
+    border-radius: 8px;
+}
+
+#BudgetText {
+    position: absolute;
+    left: 1%;
+}
+
+#BudgetResult {
+    position: absolute;
+    top: 25px;
+}
+
+#ExpenseText {
+    position: absolute;
+    top: 0;
+    left: 40%;
+}
+
+#ExpenseResult {
+    position: absolute;
+    top: 13px;
+    left: 45%;
+}
+
+#BalanceText {
+    position: absolute;
+    right: 5%;
+    top: 0.9%;
+}
+
+#BalanceResult {
+    position: absolute;
+    right: 13%;
+    top: 10px;
 }
 
 .EInputs {
@@ -77,6 +115,11 @@ h1 {
     margin-bottom: 10px;
 }
 
-
-
-
+#ExpenseList {
+    position: relative;
+    left: 30%;
+    background-color: white;
+    height: auto;
+    width: 50%;
+    border-radius: 5px;
+}
