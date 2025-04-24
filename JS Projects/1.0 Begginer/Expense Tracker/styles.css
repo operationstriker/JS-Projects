@@ -1,23 +1,82 @@
 
-#BudgetDiv {
-    height: 20vh;
-    width: 20%;
-    border: 2px solid green;
+body {
+    position: relative;
+    background-color: rgb(212, 212, 212);
+}
 
+h1 {
+    position: relative;
+    height: 3vh;
+    width: auto;
+    color: white;
+    margin: 0px;
+    text-align: center;
+}
+
+#BudgetDiv {
+    position: relative;
+    top: 100px;
+    left: 30%;
+    height: 19vh;
+    width: 20%;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: white;
+}
+
+#BudgetInput {
+    width: 90%;
+}
+
+#BudgetButton {
+   position: absolute;
+   bottom: 0.5%;
+   left: 0.3%;
 }
 
 
 #ExpenseDiv {
     position: relative;
-    top: 10px;
-    height: 25vh;
+    bottom: 60px;
+    left: 53%;
+    height: 19vh;
     width: 20%;
-    border: 2px solid rgb(255, 0, 0);
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: white;
+}
+
+#ExpenseButton {
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
 
 .buttons {
     position: relative;
-    top: 25px;
-    right: 50%;
+    height: 4vh;
+    width: 40%;
+    background-color: rgb(1, 132, 255);
+    color: white;
+    border: none;
 }
+
+.Right {
+    position: relative;
+    width: 50%;
+    bottom: 70px;
+    left: 30%;
+    background-color: rgb(1, 132, 255);
+}
+
+.EInputs {
+    width: 90%;
+}
+
+#ExpenseInput {
+    margin-bottom: 10px;
+}
+
+
+
 
