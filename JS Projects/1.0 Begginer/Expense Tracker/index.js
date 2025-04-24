@@ -9,6 +9,7 @@ const BalanceResult = document.getElementById("BalanceResult")
 function BudgetCalculate() {
     if (BudgetInput.value !== "") {
         BudgetResult.textContent = `$${BudgetInput.value}`
+        syncfunction()
     }
 
 }
@@ -17,8 +18,31 @@ function ExpenseCalculate() {
     if (ExpenseInput.value !== "") {
         ExpenseResult.textContent = `$${ExpenseAmountInput.value}`
         BalanceResult.textContent = `${BudgetInput.value - ExpenseAmountInput.value}`
+        syncfunction()
     }
 }
+
+const ExpenseList = document.getElementById("ExpenseList");
+const ExpenseUL = document.getElementById("ExpenseUL")
+
+function syncfunction() {
+    const list = document.createElement("li")
+    list.style.backgroundColor = "red"
+    list.style.marginBottom = "10px"
+    list.style.height = "auto";
+
+    const deletebutton = document.createElement("button")
+    deletebutton.style.backgroundColor = "blue"
+
+    deletebutton.onclick = function() {
+        list.remove();
+        deletebutton.remove()
+    }
+
+    ExpenseUL.appendChild(list)
+    ExpenseUL.appendChild(deletebutton)
+}
+
 
 // Local Storage - to save
 
