@@ -6,6 +6,8 @@ body {
 
 h1 {
     position: relative;
+    top: 50px;
+    left: -13%;
     height: 3vh;
     width: auto;
     color: white;
@@ -117,6 +119,7 @@ h1 {
 
 #ExpenseList {
     position: relative;
+    top: 10px;
     left: 30%;
     background-color: white;
     height: auto;
