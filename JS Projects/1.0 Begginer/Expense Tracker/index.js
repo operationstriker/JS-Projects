@@ -40,7 +40,7 @@ function syncfunction() {
     }
 
     ExpenseUL.appendChild(list)
-    ExpenseUL.appendChild(deletebutton)
+    list.appendChild(deletebutton)
 }
 
 
