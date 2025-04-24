@@ -8,33 +8,43 @@
 </head>
 <body>
 
-    <h3 style="font-family: Arial;">Budget App</h3>
+    <h1 style="font-family: Arial;">BUDGET APP</h1>
 
     <div id="BudgetDiv">
-        <p>Please Enter Your Budget</p>
-        <input type="number" id="BudgetInput">
-        <button class="buttons" onclick="BudgetCalculate()">Calculate</button>
+        <p style="font-family: Arial; font-weight: bold;">BUDGET</p>
+        <input type="number" id="BudgetInput" placeholder="Enter Total Amount">
+        <button class="buttons" onclick="BudgetCalculate()" id="BudgetButton">Set a Budget</button>
     </div>
 
     <div id="ExpenseDiv">
-        <p>Please Enter Your Expense</p>
-        <input type="text" id="ExpenseInput">
+        <p style="font-family: Arial; font-weight: bold;">EXPENSES</p>
+        <input type="text" id="ExpenseInput" placeholder="Expense Title" class="EInputs">
+        <input type="number" id="ExpenseAmountInput" placeholder="Expense Amount" class="EInputs">
 
-        <p>Please Enter Expense Amount</p>
-        <input type="text" id="ExpenseAmountInput">
-
-        <button class="buttons" onclick="ExpenseCalculate()">Add Expense</button>
+        <button class="buttons" onclick="ExpenseCalculate()" id="ExpenseButton">Add Expense</button>
     </div>
 
-    <p>BUDGET</p>
+    <div class="Right">
+        <div>
+            <p style="color: white; font-family: Arial; font-weight: bold;">BUDGET</p>
+            <p id="BudgetResult" style="text-align: center;"></p>
+        </div>
+     
+    
+        <div>
+            <p style="color: white; font-family: Arial; font-weight: bold;">EXPENSES</p>
+            <p style="color: red;" id="ExpenseResult" style="text-align: center;"></p>
+        </div>
+        
+    
+        <div>
+            <p style="color: white; font-family: Arial; font-weight: bold;">YOUR BALANCE</p>
+            <p id="BalanceResult"></p>
+        </div>
+       
+    </div>
 
-    <p id="BudgetResult">$5000</p>
 
-    <p>EXPENSES</p>
-    <p style="color: red;" id="ExpenseResult">$2600</p>
-
-    <p>BALANCE</p>
-    <p id="BalanceResult">$2143</p>
   
 </body>
 <script src="index.js"></script>
