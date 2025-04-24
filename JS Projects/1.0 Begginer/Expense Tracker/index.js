@@ -30,6 +30,12 @@ function syncfunction() {
     list.style.backgroundColor = "red"
     list.style.marginBottom = "10px"
     list.style.height = "auto";
+    list.style.width = "95%"
+    list.style.position = "relative";
+    list.style.bottom = "5px"
+
+    const p = document.createElement("p")
+    p.textContent = ExpenseInput.value
 
     const deletebutton = document.createElement("button")
     deletebutton.style.backgroundColor = "blue"
@@ -40,6 +46,7 @@ function syncfunction() {
     }
 
     ExpenseUL.appendChild(list)
+    list.appendChild(p)
     list.appendChild(deletebutton)
 }
 
