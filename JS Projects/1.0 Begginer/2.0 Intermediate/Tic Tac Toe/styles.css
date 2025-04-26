@@ -1,0 +1,36 @@
+table {
+    /* background-color: gray; */
+    height: 50vh;
+    width: 30%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid;
+    border-color: rgb(0, 0, 0);
+}
+
+tr {
+    height: 10vh;
+    width: 20%;
+    background-color: gray;
+    border: 2px solid;
+    font-size: 5vw;
+    color: white;
+    font-family: Arial;
+    cursor: pointer;
+}
+
+#RestartBTN {
+    position: relative;
+    top: 50px;
+    left: 45%;
+    border: none;
+    height: 5vh;
+    width: 10%;
+    cursor: pointer;
+
+}
+
+
+
+
