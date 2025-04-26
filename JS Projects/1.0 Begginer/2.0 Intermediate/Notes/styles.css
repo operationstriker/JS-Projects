@@ -1,0 +1,66 @@
+body {
+    background-color: rgb(0, 115, 255);
+}
+
+#Card {
+    background-color: white;
+    height: 20vh;
+    width: 20%;
+    border-radius: 7px;
+}
+
+#Button {
+    height: 2cm;
+    width: 30%;
+    border-radius: 40px;
+    background-color: transparent;
+    font-size: 4em;
+    color: rgb(43, 147, 226);
+    cursor: pointer;
+}
+
+#CloseBTN {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: none;
+    cursor: pointer;
+    height: 3vh;
+    width: 15%;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#TitleInput {
+    height: 3vh;
+    width: 90%;
+}
+
+#Div {
+    position: relative;
+    background-color: white;
+    height: 8cm;
+    width: 20%;
+}
+
+#DescriptionInput {
+    position: relative;
+    width: 70%;
+    height: 10vh;
+    resize: none;
+}
+
+#AddNoteBTN {
+    position: absolute;
+    bottom: 5%;
+    left: 10%;
+    background-color: rgb(0, 115, 255);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    height: 4vh;
+    width: 80%;
+}
+
+
+
