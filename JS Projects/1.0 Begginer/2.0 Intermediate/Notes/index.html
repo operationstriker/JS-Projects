@@ -11,20 +11,20 @@
 
     <div id="Card">
         <button id="Button" onclick="CreateNote()">+</button>
-        <p style="color: rgb(43, 147, 226); font-family: Arial;">Add New Note</p>
+        <p style="color: rgb(43, 147, 226); text-align: center;">Add New Note</p>
     </div>
 
-    <div id="Div">
+    <div id="NoteDiv">
         <div id="Header">
             <p>Add a new Note</p>
-            <button id="CloseBTN">X</button>
+            <button id="CloseBTN" onclick="closeNote()">X</button>
         </div>
         
-        <p style="font-family: Arial;">Title</p>
+        <p>Title</p>
         <input type="text" id="TitleInput">
 
-        <p style="font-family: Arial;">Description</p>
-        <!-- <textarea id="DescriptionInput"> -->
+        <p>Description</p>
+        
 
         <button id="AddNoteBTN">Add Note</button>
     </div>
