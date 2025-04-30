@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(0, 115, 255);
+    background-color: rgb(79, 143, 233);
     font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
 }
 
@@ -12,14 +12,20 @@ body {
 
 #Button {
     position: relative;
-    left: 30%;
+    top: 30%;
+    left: 35%;
     height: 2cm;
     width: 30%;
-    border-radius: 40px;
     background-color: transparent;
     font-size: 4em;
     color: rgb(43, 147, 226);
     cursor: pointer;
+}
+
+#NoteP {
+    position: relative;
+    top: 30%;
+    left: -2%;
 }
 
 #Header {
