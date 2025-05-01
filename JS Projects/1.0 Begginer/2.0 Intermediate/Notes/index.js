@@ -32,64 +32,66 @@ function CreateNote() {
       line.style.backgroundColor = "green"
       line.style.height = "20px"
 
+      const deletebutton = document.createElement("button")
+      deletebutton.style.backgroundColor = "red"
+      deletebutton.style.cursor = "pointer"
+
+      deletebutton.addEventListener("click", () => {
+        NewNote.remove();
+      })
+
       const date = new Date()
-      
 
-      const monthtext = document.createElement("p")
-      monthtext.textContent = date.getMonth()
-
-
-      switch(date.getMonth()) {
+      switch(date.getMonth(), date.getFullYear()) {
         case 1:
-            monthtext.textContent = "January"
+            yeartext.textContent =  `${date.getFullYear()}` + ` January`
             break;
         case 2:
-            monthtext.textContent = "February"
+            yeartext.textContent =  `${date.getFullYear()}` + ` February`
             break;
         case 3:
-            monthtext.textContent = "March"
+            yeartext.textContent =  `${date.getFullYear()}` + ` March`
             break;
         case 4:
-            monthtext.textContent = "April"
+            yeartext.textContent =  `${date.getFullYear()}` + ` April`
             break;
         case 5:
-            monthtext.textContent = "May"
+            yeartext.textContent =  `${date.getFullYear()}` + ` May`
             break;
         case 6:
-            monthtext.textContent = "June"
+            yeartext.textContent =  `${date.getFullYear()}` + ` June`
             break;
         case 7:
-            monthtext.textContent = "July"
+            yeartext.textContent =  `${date.getFullYear()}` + ` July`
             break;
         case 8:
-            monthtext.textContent = "August"
+            yeartext.textContent =  `${date.getFullYear()}` + ` August`
             break;
         case 9:
-            monthtext.textContent = "September"
+            yeartext.textContent =  `${date.getFullYear()}` + ` September`
             break;
         case 10:
-            monthtext.textContent = "October"
+            yeartext.textContent =  `${date.getFullYear()}` + ` October`
             break;
         case 11:
-            monthtext.textContent = "November"
+            yeartext.textContent =  `${date.getFullYear()}` + ` November`
             break;
         case 12:
-            monthtext.textContent = "December"
+             yeartext.textContent =  `${date.getFullYear()}` + ` December`
             break;    
       }
 
       const yeartext = document.createElement("p")
-      yeartext.textContent =  date.getFullYear() 
+      yeartext.textContent =  `${date.getFullYear()}` + ` ${date.getMonth()}`
       
-      NewNote.appendChild(monthtext)
+      NewNote.appendChild(deletebutton);
       NewNote.appendChild(yeartext);
-      NewNote.appendChild(TitleText)
-      NewNote.appendChild(line)
-      NewNote.appendChild(DescriptionText)
+      NewNote.appendChild(TitleText);
+      NewNote.appendChild(line);
+      NewNote.appendChild(DescriptionText);
       document.body.appendChild(NewNote);
     }
 }
-
 
 function closeNote() {
     NoteDiv.remove()
