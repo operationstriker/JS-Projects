@@ -32,6 +32,9 @@ function CreateNote() {
       line.style.backgroundColor = "green"
       line.style.height = "20px"
 
+      const editbutton = document.createElement("button")
+      editbutton.style.backgroundColor = "orange";
+
       const deletebutton = document.createElement("button")
       deletebutton.style.backgroundColor = "red"
       deletebutton.style.cursor = "pointer"
@@ -84,6 +87,7 @@ function CreateNote() {
       const yeartext = document.createElement("p")
       yeartext.textContent =  `${date.getFullYear()}` + ` ${date.getMonth()}`
       
+      NewNote.appendChild(editbutton);
       NewNote.appendChild(deletebutton);
       NewNote.appendChild(yeartext);
       NewNote.appendChild(TitleText);
