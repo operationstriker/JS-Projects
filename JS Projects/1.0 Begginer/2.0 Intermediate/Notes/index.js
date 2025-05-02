@@ -32,6 +32,9 @@ function CreateNote() {
       line.style.backgroundColor = "green"
       line.style.height = "20px"
 
+      const settingbutton = document.createElement("button")
+      settingbutton.style.height = "30px"
+
       const editbutton = document.createElement("button")
       editbutton.style.backgroundColor = "orange";
       editbutton.style.height = "30px"
