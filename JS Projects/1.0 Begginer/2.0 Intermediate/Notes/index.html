@@ -10,7 +10,7 @@
     
 
     <div id="Card">
-        <button id="Button" onclick="CreateNote()">+</button>
+        <button id="Button"onclick="OpenNote()">+</button>
         <p style="color: rgb(43, 147, 226); text-align: center;" id="NoteP">Add New Note</p>
     </div>
 
@@ -24,9 +24,27 @@
         <input type="text" id="TitleInput">
 
         <p>Description</p>
+        <input type="text" id="DescriptionInput">
         
 
-        <button id="AddNoteBTN">Add Note</button>
+        <button id="AddNoteBTN" onclick="CreateNote()">Add Note</button>
+    </div>
+
+
+    <div id="UpdateDiv">
+        <div id="Header">
+            <p>Add a new Note</p>
+            <button id="CloseBTN" onclick="closeNote()">X</button>
+        </div>
+        
+        <p>Title</p>
+        <input type="text" id="TitleInput">
+
+        <p>Description</p>
+        <input type="text" id="DescriptionInput">
+        
+
+        <button id="AddNoteBTN" onclick="CreateNote()">Add Note</button>
     </div>
 
 </body>
