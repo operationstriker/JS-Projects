@@ -34,6 +34,9 @@ function CreateNote() {
 
       const editbutton = document.createElement("button")
       editbutton.style.backgroundColor = "orange";
+      editbutton.style.height = "30px"
+
+      
 
       const deletebutton = document.createElement("button")
       deletebutton.style.backgroundColor = "red"
