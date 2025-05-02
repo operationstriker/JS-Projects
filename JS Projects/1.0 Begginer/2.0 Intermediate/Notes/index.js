@@ -36,19 +36,6 @@ function CreateNote() {
       settingbutton.style.height = "30px"
 
 
-      editbutton.addEventListener("click", () => {
-        DescriptionText.style.type = "input"
-      })
-      
-
-      const deletebutton = document.createElement("button")
-      deletebutton.style.backgroundColor = "red"
-      deletebutton.style.cursor = "pointer"
-
-      deletebutton.addEventListener("click", () => {
-        NewNote.remove();
-      })
-
       const date = new Date()
 
       switch(date) {
