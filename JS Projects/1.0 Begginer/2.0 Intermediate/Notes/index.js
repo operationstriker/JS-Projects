@@ -36,6 +36,9 @@ function CreateNote() {
       editbutton.style.backgroundColor = "orange";
       editbutton.style.height = "30px"
 
+      editbutton.addEventListener("click", () => {
+        DescriptionText.style.type = "input"
+      })
       
 
       const deletebutton = document.createElement("button")
