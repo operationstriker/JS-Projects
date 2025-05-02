@@ -40,40 +40,40 @@ function CreateNote() {
 
       switch(date) {
         case 1:
-            yeartext.textContent =  `${date.getFullYear()} January` 
+            yeartext.textContent = `${date.getFullYear()} January` 
             break;
         case 2:
-            yeartext.textContent =  `${date.getFullYear()} February` 
+            yeartext.textContent = `${date.getFullYear()} February` 
             break;
         case 3:
-            yeartext.textContent =  `${date.getFullYear()} March`
+            yeartext.textContent = `${date.getFullYear()} March`
             break;
         case 4:
-            yeartext.textContent =  `${date.getFullYear()} April`
+            yeartext.textContent = `${date.getFullYear()} April`
             break;
         case 5:
-            yeartext.textContent =  `${date.getFullYear()} May`
+            yeartext.textContent = `${date.getFullYear()} May`
             break;
         case 6:
-            yeartext.textContent =  `${date.getFullYear()} June` 
+            yeartext.textContent = `${date.getFullYear()} June` 
             break;
         case 7:
-            yeartext.textContent =  `${date.getFullYear()} July` 
+            yeartext.textContent = `${date.getFullYear()} July` 
             break;
         case 8:
-            yeartext.textContent =  `${date.getFullYear()} August`
+            yeartext.textContent = `${date.getFullYear()} August`
             break;
         case 9:
-            yeartext.textContent =  `${date.getFullYear()} September`
+            yeartext.textContent = `${date.getFullYear()} September`
             break;
         case 10:
-            yeartext.textContent =  `${date.getFullYear()} October`
+            yeartext.textContent = `${date.getFullYear()} October`
             break;
         case 11:
-            yeartext.textContent =  `${date.getFullYear()} November`
+            yeartext.textContent = `${date.getFullYear()} November`
             break;
         case 12:
-             yeartext.textContent =  `${date.getFullYear()} December` 
+             yeartext.textContent = `${date.getFullYear()} December` 
             break;    
       }
 
