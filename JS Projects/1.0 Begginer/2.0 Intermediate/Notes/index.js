@@ -35,10 +35,6 @@ function CreateNote() {
       const settingbutton = document.createElement("button")
       settingbutton.style.height = "30px"
 
-      const editbutton = document.createElement("button")
-      editbutton.style.backgroundColor = "orange";
-      editbutton.style.height = "30px"
-      editbutton.style.cursor = "pointer"
 
       editbutton.addEventListener("click", () => {
         DescriptionText.style.type = "input"
