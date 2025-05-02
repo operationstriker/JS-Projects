@@ -97,8 +97,6 @@ function CreateNote() {
       const yeartext = document.createElement("p")
       yeartext.textContent =  `${date.getFullYear()}` + ` ${date.getMonth()}`
       
-      NewNote.appendChild(editbutton);
-      NewNote.appendChild(deletebutton);
       NewNote.appendChild(yeartext);
       NewNote.appendChild(TitleText);
       NewNote.appendChild(line);
