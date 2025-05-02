@@ -79,3 +79,10 @@ body {
 
 
 
+#UpdateDiv {
+    position: relative;
+    display: none;
+    background-color: white;
+    height: 8cm;
+    width: 20%;
+}
