@@ -42,12 +42,12 @@ function CreateNote() {
 
       const date = new Date()
 
-      switch(date.getMonth(), date.getFullYear()) {
+      switch(date) {
         case 1:
             yeartext.textContent =  `${date.getFullYear()} January` 
             break;
         case 2:
-            yeartext.textContent =  `${date.getFullYear()} February` + ` February`
+            yeartext.textContent =  `${date.getFullYear()} February` 
             break;
         case 3:
             yeartext.textContent =  `${date.getFullYear()} March`
