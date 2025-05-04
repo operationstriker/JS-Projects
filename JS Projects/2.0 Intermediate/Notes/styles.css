@@ -1,0 +1,98 @@
+body {
+    background-color: rgb(79, 143, 233);
+    font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+#Card {
+    background-color: white;
+    height: 25vh;
+    width: 20%;
+    border-radius: 0px;
+}
+
+#Button {
+    position: relative;
+    top: 30%;
+    left: 35%;
+    height: 2cm;
+    width: 30%;
+    background-color: transparent;
+    font-size: 4em;
+    color: rgb(43, 147, 226);
+    cursor: pointer;
+}
+
+#NoteP {
+    position: relative;
+    top: 30%;
+    left: -2%;
+}
+
+#Header {
+    border-bottom: 2px solid rgb(134, 134, 134);
+}
+
+#CloseBTN {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: none;
+    cursor: pointer;
+    height: 3vh;
+    width: 15%;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#TitleInput {
+    height: 3vh;
+    width: 90%;
+}
+
+#NoteDiv {
+    position: relative;
+    display: none;
+    background-color: white;
+    height: 8cm;
+    width: 20%;
+}
+
+#DescriptionInput {
+    position: relative;
+    width: 70%;
+    height: 5vh;
+    resize: none;
+}
+
+#AddNoteBTN {
+    position: relative;
+    top: 20%;
+    left: 10%;
+    background-color: rgb(0, 115, 255);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    height: 4vh;
+    width: 80%;
+    cursor: pointer;
+}
+
+
+
+#UpdateDiv {
+    position: relative;
+    display: none;
+    background-color: white;
+    height: 8cm;
+    width: 20%;
+}
+
+
+li {
+    list-style-type: none;
+}
+
+
+
+
+

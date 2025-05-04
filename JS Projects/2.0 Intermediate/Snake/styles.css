@@ -1,0 +1,29 @@
+
+table {
+    height: 80vh;
+    width: 50%;
+    background-color: darkgreen;
+    border: none;
+}
+
+
+td {
+    width: 50%;
+    border: none;
+}
+
+
+.LightGreenTB {
+    width: 5%;
+    background-color: rgb(116, 233, 84);
+    border: none;
+}
+
+.DarkGreenTB {
+    width: 5%;
+    background-color: rgb(28, 170, 28);
+    border: none;
+}
+
+
+

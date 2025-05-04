@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+
+    <div id="Card">
+        <button id="Button"onclick="OpenNote()">+</button>
+        <p style="color: rgb(43, 147, 226); text-align: center;" id="NoteP">Add New Note</p>
+    </div>
+
+    <div id="NoteDiv">
+        <div id="Header">
+            <p>Add a new Note</p>
+            <button id="CloseBTN" onclick="closeNote()">X</button>
+        </div>
+        
+        <p>Title</p>
+        <input type="text" id="TitleInput">
+
+        <p>Description</p>
+        <input type="text" id="DescriptionInput">
+        
+
+        <button id="AddNoteBTN" onclick="CreateNote()">Add Note</button>
+    </div>
+
+
+    <div id="UpdateDiv">
+        <div id="Header">
+            <p>Update a Note</p>
+            <button id="CloseBTN" onclick="closeNote()">X</button>
+        </div>
+        
+        <p>Title</p>
+        <input type="text" id="TitleInput">
+
+        <p>Description</p>
+        <input type="text" id="DescriptionInput">
+        
+
+        <button id="UpdateBTN" onclick="CreateNote()">Update Note</button>
+    </div>
+
+    <li>
+        
+    </li>
+
+</body>
+<script src="index.js"></script>
+</html>
