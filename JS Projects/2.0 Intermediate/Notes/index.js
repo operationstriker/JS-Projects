@@ -1,3 +1,5 @@
+// notes
+
 const NoteDiv = document.getElementById("NoteDiv");
 const AddNoteBTN = document.getElementById("AddNoteBTN");
 const TitleInput = document.getElementById("TitleInput");
