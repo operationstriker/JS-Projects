@@ -2,9 +2,12 @@ const Input = document.getElementById("Input")
 
 
 function getlink() {
-    const NewDiv = document.createElement("div")
 
-    document.body.appendChild(NewDiv)
+    if (Input.value !== "") {
+   const NewDiv = document.createElement("div")
+   NewDiv.id = "NewDiv"
+   document.body.appendChild(NewDiv)
+    }
 }
 
 
