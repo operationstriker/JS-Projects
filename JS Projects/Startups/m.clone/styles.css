@@ -1,0 +1,17 @@
+
+#webcamVideo {
+    position: relative;
+    left: 50%;
+    width: 50%;
+    transform: scaleX(-1); 
+    /* Mirrors the video horizontally */
+}
+
+
+
+button {
+    position: relative;
+    right: 40%;
+}
+
+
